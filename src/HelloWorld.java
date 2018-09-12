@@ -10,7 +10,7 @@ public class HelloWorld
 	public static void main(String[] args)
 	{
 		//Prints to the console.
-		System.out.println("Hello World");
-		System.out.println("My first java app!!!");;
+		System.out.println("Why won't this print to the console??");
+		System.out.println("I don't understand");;
 	}
 }
