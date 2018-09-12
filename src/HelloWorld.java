@@ -5,12 +5,13 @@ public class HelloWorld
 	//1.Actions. Methods.
 	//2 Attributes. Variables
 	private String name = "Zach";
+	private String lastname = "Daggett";
 	
 	//main method. Starts the program
 	public static void main(String[] args)
 	{
 		//Prints to the console.
 		System.out.println("Hello World");
-		System.out.println("My first java app!!!");;
+	
 	}
 }
