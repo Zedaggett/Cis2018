@@ -10,7 +10,8 @@ public class HelloWorld
 	public static void main(String[] args)
 	{
 		//Prints to the console.
-		System.out.println("Why won't this print to the console??");
-		System.out.println("I don't understand");;
+		System.out.println("Commit number 2 I hope");
+		System.out.println("I think I understand now");
+		System.out.println("Adding another line because I can");;
 	}
 }
