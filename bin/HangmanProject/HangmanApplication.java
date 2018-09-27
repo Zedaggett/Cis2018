@@ -11,7 +11,7 @@ public class HangmanApplication {
 		 */
 		HangmanGame newG = new HangmanGame(); //Creating a new instance of a game of Hangman
 		newG.createWord(); //Creating a new word to be masked
-		newG.createHints(); //Creating a new hint
+		newG.createHint(); //Creating a new hint
 		newG.createMask(); //Creating a mask to disguise the hidden word
 		
 	}
