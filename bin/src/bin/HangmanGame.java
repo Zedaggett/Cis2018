@@ -10,22 +10,28 @@ public class HangmanGame {
 	 * Hint limit = 1
 	 * 
 	 */
+	public static void main (String[] args) {}
+	
+	public void createWord() 
+	{
+		String word = "cat";
+		
+		for (int i = 0; i < word.length(); i++)
+		{
+			System.out.println(i);
+			System.out.println(word.charAt(i));
+		}
+	}
+	
 
-		
-		private double guesses;
-		public double getGuesses() {
-			return guesses;
-		}
-		public void setGuesses(double guesses) {
-			this.guesses = guesses;
-		}
+	
+		public void createMask()
+		{
+			String word = "cat";
 			
-		public static int NUMBER_OF_BAD_GUESSES_BEFORE_DEATH = 5
-			if ()
-		}
-		
+			for (int i = 0; i < word.length(); i++)
 			{
-			System.out.println("Number of guesses: (guesses)");
+				System.out.println ("*");
 			}
 		}
 }
